@@ -1,7 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const { createTable } = require("./model/createTable.model");
-const { favQuoteRouter } = require("./routers/favorites.router");
 const PORT = 9090;
 
 
