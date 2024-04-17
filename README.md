@@ -30,7 +30,7 @@ This application allows users to search for quotes from famous authors using the
 
 1. **Clone the repository:**
 
-````shell
+```shell
 git clone https://github.com/heyasif/Slashash.git
 
 
@@ -41,5 +41,5 @@ git clone <repository-link>
 - cd frontend
   - Run `npm install`
   - Then run `npm run dev`
-```shell
-````
+
+```
