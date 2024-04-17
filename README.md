@@ -35,5 +35,9 @@ git clone <repository-link>
 cd <repository-name>
 ```
 
-cd backend
-npm install
+- cd backend
+  - Run `npm install` and configure the database in `/config/db.js`
+  - Then run `node index.js`
+- cd frontend
+  - Run `npm install`
+  - Then run `npm run dev`
