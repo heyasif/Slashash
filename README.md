@@ -34,3 +34,6 @@ This application allows users to search for quotes from famous authors using the
 git clone <repository-link>
 cd <repository-name>
 ```
+
+cd backend
+npm install
