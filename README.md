@@ -30,14 +30,16 @@ This application allows users to search for quotes from famous authors using the
 
 1. **Clone the repository:**
 
-```shell
-git clone <repository-link>
-cd <repository-name>
-```
+````shell
+git clone https://github.com/heyasif/Slashash.git
 
+
+git clone <repository-link>
 - cd backend
   - Run `npm install` and configure the database in `/config/db.js`
   - Then run `node index.js`
 - cd frontend
   - Run `npm install`
   - Then run `npm run dev`
+```shell
+````
