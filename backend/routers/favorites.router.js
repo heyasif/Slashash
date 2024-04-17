@@ -20,6 +20,22 @@ favQuoteRouter.get("/", (req, res) => {
 })
 
 
+//post qoutes route
+favQuoteRouter.post("/", (req, res) => {
+    try {
+        const { id, content, author } = req.body;
+        const query = `INSERT INTO favourites (id, content, author) VALUES (?, ?, ?)`
+        db.query(query, [id, content, author], (err, result) => {
+            if (err) res.status(200).json({msg: "Error while posting quote", err})
+            else res.status(200).json({msg: "Quote posted successfully", result})
+        } )
+
+    } catch (err) {
+        res.status(400).json({msg: "Error posting quotes", err})
+    }
+})
+
+
 
 
 //exporting Router
